@@ -235,8 +235,8 @@
     compatible = "zmk,behavior-macro";
     label = "macro_pipeline";
     #binding-cells = <0>;
-    wait-ms = <40>;
-    tap-ms = <40>;
+    wait-ms = <20>;
+    tap-ms = <30>;
     bindings = <&kp R>, <&kp U>, <&kp N>, <&kp MINUS>, <&kp P>, <&kp I>, <&kp P>, <&kp E>, <&kp L>, <&kp I>, <&kp N>, <&kp ENTER>;
     display-name = "Run Pipeline";
   };
